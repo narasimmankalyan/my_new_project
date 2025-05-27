@@ -1,5 +1,5 @@
 # Use Python 3.9-slim as the base image (note: your comment said "Python 5.9-slim" which doesn't exist)
-FROM python:3.9-slim
+FROM python:3.10-slim
 
 # Set environment variables to avoid interactive prompts and bytecode
 ENV PYTHONDONTWRITEBYTECODE=1 \
